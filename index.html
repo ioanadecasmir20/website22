@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Protection Training</title>
+
+  <!-- Favicon (add to /images later) -->
+  <link rel="icon" type="image/png" href="images/favicon-elite.png" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo">
+        <img src="images/logo-elite.png" alt="Elite Protection Training logo" />
+        <span class="logo-text">Elite Protection Training</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#gallery">Training Experience</a></li>
+          <li><a href="#locations">Sites</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <h1>Elite protection. Real-world training.</h1>
+          <p>
+            Elite Protection Training delivers high-impact security training built around real
+            operations, live venues and control-room experience.
+          </p>
+          <div class="hero-actions">
+            <a href="#courses" class="btn btn-primary">Explore courses</a>
+            <a href="#contact" class="btn btn-outline">Talk to our team</a>
+          </div>
+          <div class="hero-meta">
+            <span>4 training &amp; office sites</span>
+            <span>Classroom &amp; eLearning options</span>
+          </div>
+        </div>
+
+        <div class="hero-media reveal">
+          <div class="hero-image-main">
+            <img src="images/hero-elite-team.jpg" alt="Security professionals in training" />
+          </div>
+          <div class="hero-image-stack">
+            <img src="images/hero-control-room.jpg" alt="CCTV control room training" />
+            <img src="images/hero-venue-security.jpg" alt="Venue security operations" />
+          </div>
+        </div>
+      </div>
+      <button class="scroll-down" aria-label="Scroll to about section">
+        <span>Scroll</span> ↓
+      </button>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <h2>About Elite Protection Training</h2>
+          <p>
+            Elite Protection Training focuses on turning security qualifications into real-world
+            capability. Our trainers come from operational security, door supervision, CCTV and
+            management roles and bring live experience into every session.
+          </p>
+          <p>
+            We blend classroom delivery, scenario-based exercises and eLearning so that learners
+            understand not only what the standards require, but how to apply them on shift at 3am
+            when it really matters.
+          </p>
+        </div>
+        <div class="about-highlight reveal">
+          <div class="stats-row">
+            <div class="stat">
+              <span class="stat-number" data-target="4">0</span>
+              <span class="stat-label">Training &amp; office sites</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="9">0</span>
+              <span class="stat-label">Core &amp; specialist courses</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="100">0</span>
+              <span class="stat-label">% industry focused</span>
+            </div>
+          </div>
+          <div class="about-image-card">
+            <img src="images/about-briefing.jpg" alt="Trainer briefing security team" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES -->
+    <section id="courses" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Courses</h2>
+          <p>
+            Choose from core compliance training, operational skills and specialist security
+            modules. Filter by type to see what suits your team.
+          </p>
+        </div>
+
+        <div class="course-filters reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="classroom">Classroom</button>
+          <button class="filter-btn" data-filter="elearning">eLearning</button>
+          <button class="filter-btn" data-filter="specialist">Specialist</button>
+        </div>
+
+        <div class="courses-grid">
+          <!-- Existing 6 courses -->
+          <article class="course-card reveal" data-type="elearning">
+            <div class="course-tag">eLearning</div>
+            <h3>ACT Awareness</h3>
+            <p>
+              Introduces key concepts in protective security, recognising suspicious behaviour and
+              reporting concerns using official ACT guidance.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>Short modules for busy staff</li>
+                <li>Ideal for all frontline roles</li>
+                <li>Certificate of completion</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="course-card reveal" data-type="elearning">
+            <div class="course-tag">eLearning</div>
+            <h3>ACT Security</h3>
+            <p>
+              Builds on ACT Awareness for security operatives, covering hostile reconnaissance,
+              threat levels and response options.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>Designed for SIA-licensed staff</li>
+                <li>Scenario-based decision making</li>
+                <li>Supports venue security plans</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="course-card reveal" data-type="classroom">
+            <div class="course-tag">Classroom</div>
+            <h3>Level 3 Emergency First Aid at Work</h3>
+            <p>
+              One-day qualification giving staff the confidence to respond to life-threatening
+              emergencies until professional help arrives.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>CPR and AED use</li>
+                <li>Bleeding, shock and choking</li>
+                <li>Ideal for low to medium risk sites</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="course-card reveal" data-type="classroom">
+            <div class="course-tag">Classroom</div>
+            <h3>Level 3 First Aid at Work</h3>
+            <p>
+              Comprehensive three-day qualification covering a wide range of injuries and illnesses
+              for higher-risk environments.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>In-depth practical training</li>
+                <li>Regulated qualification</li>
+                <li>Suitable for designated first aiders</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="course-card reveal" data-type="elearning">
+            <div class="course-tag">eLearning</div>
+            <h3>Lone Working eLearning</h3>
+            <p>
+              Focuses on dynamic risk assessment, personal safety and escalation procedures for
+              staff working alone on or off site.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>Works on desktop or mobile</li>
+                <li>Practical scenarios</li>
+                <li>Supports lone worker policies</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="course-card reveal" data-type="elearning">
+            <div class="course-tag">eLearning</div>
+            <h3>Security Operative Real Life Basics eLearning</h3>
+            <p>
+              A practical introduction to everyday security tasks: patrolling, radio use, incident
+              logs and customer interaction.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>Ideal pre-course or induction</li>
+                <li>Short, focused modules</li>
+                <li>Supports new starters</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- 3 additional relevant courses -->
+          <article class="course-card reveal" data-type="specialist classroom">
+            <div class="course-tag">Specialist</div>
+            <h3>Conflict Management for Security</h3>
+            <p>
+              Develops communication skills, situational awareness and structured approaches to
+              managing aggression and challenging behaviour.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>Role-play and scenario work</li>
+                <li>Focus on de-escalation</li>
+                <li>Suitable for all frontline staff</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="course-card reveal" data-type="specialist classroom">
+            <div class="course-tag">Specialist</div>
+            <h3>Physical Intervention Skills – Introduction</h3>
+            <p>
+              Introduces safe, lawful approaches to defensive skills and non-pain compliant
+              interventions in line with current guidance.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>Emphasis on safety and necessity</li>
+                <li>Stance, disengagement and team work</li>
+                <li>Practical, supervised practice</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="course-card reveal" data-type="specialist classroom">
+            <div class="course-tag">Specialist</div>
+            <h3>Supervising Security Teams</h3>
+            <p>
+              Designed for team leaders and supervisors, covering briefings, post allocation,
+              incident oversight and reporting.
+            </p>
+            <button class="course-toggle" type="button">More details</button>
+            <div class="course-more">
+              <ul>
+                <li>Shift leadership skills</li>
+                <li>Performance and welfare checks</li>
+                <li>Client communication and escalation</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING EXPERIENCE / GALLERY -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>The Elite training experience</h2>
+          <p>
+            Training is delivered in real venues, control rooms and classrooms so that learners
+            practise in the environments they actually work in.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-classroom.jpg" alt="Classroom-based security training" />
+            <figcaption>Classroom sessions with practical scenarios and group discussion.</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-cctv.jpg" alt="CCTV operator at work" />
+            <figcaption>Hands-on CCTV and control-room training using live-style setups.</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="images/gallery-venue.jpg" alt="Door supervisors at venue entrance" />
+            <figcaption>Door supervision and event security practice at real-world venues.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATIONS -->
+    <section id="locations" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Sites</h2>
+          <p>Elite operates from four key locations across Oxfordshire and Buckinghamshire.</p>
+        </div>
+
+        <div class="locations-list">
+          <article class="location-card reveal">
+            <h3>Henley-on-Thames</h3>
+            <dl>
+              <div>
+                <dt>Address</dt>
+                <dd>109b Greys Road</dd>
+              </div>
+              <div>
+                <dt>Town</dt>
+                <dd>Henley-on-Thames</dd>
+              </div>
+              <div>
+                <dt>County</dt>
+                <dd>Oxfordshire</dd>
+              </div>
+              <div>
+                <dt>Postcode</dt>
+                <dd>RG9 1HG</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="location-card reveal">
+            <h3>Watlington</h3>
+            <dl>
+              <div>
+                <dt>Site</dt>
+                <dd>Watlington Industrial Estate</dd>
+              </div>
+              <div>
+                <dt>Town</dt>
+                <dd>Watlington</dd>
+              </div>
+              <div>
+                <dt>County</dt>
+                <dd>Oxfordshire</dd>
+              </div>
+              <div>
+                <dt>Postcode</dt>
+                <dd>OX49 5PH</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="location-card reveal">
+            <h3>Stokenchurch / High Wycombe</h3>
+            <dl>
+              <div>
+                <dt>Building</dt>
+                <dd>Beacon House</dd>
+              </div>
+              <div>
+                <dt>Business Park</dt>
+                <dd>Stokenchurch Business Park, Ibstone Road</dd>
+              </div>
+              <div>
+                <dt>Town</dt>
+                <dd>Stokenchurch, High Wycombe</dd>
+              </div>
+              <div>
+                <dt>Postcode</dt>
+                <dd>HP14 3FE</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="location-card reveal">
+            <h3>Aylesbury</h3>
+            <dl>
+              <div>
+                <dt>Centre</dt>
+                <dd>Claydon House Business Centre</dd>
+              </div>
+              <div>
+                <dt>Street</dt>
+                <dd>1 Edison Road</dd>
+              </div>
+              <div>
+                <dt>Town</dt>
+                <dd>Aylesbury, Buckinghamshire</dd>
+              </div>
+              <div>
+                <dt>Postcode</dt>
+                <dd>HP19 8TE</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <h2>Contact</h2>
+          <p>
+            For bookings, employer enquiries or to arrange bespoke training, contact our team by
+            email or use the quick form.
+          </p>
+          <p class="contact-email">
+            Email:
+            <a href="mailto:info@eliteprotectiontraining.com">
+              info@eliteprotectiontraining.com
+            </a>
+          </p>
+        </div>
+
+        <div class="contact-form-wrapper reveal">
+          <form id="contact-form">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send enquiry</button>
+            <p class="form-note">
+              The form will open your email client with the details filled in, so you stay in
+              control of your information.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Elite Protection Training. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
