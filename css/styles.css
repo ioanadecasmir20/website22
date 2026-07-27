@@ -736,3 +736,7 @@ body {
   color: #ffd84d;
   text-decoration: underline;
 }
+
+.contact-details h3 {
+  color: var(--gold-soft);
+}
