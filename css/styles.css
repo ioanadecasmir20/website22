@@ -737,6 +737,7 @@ body {
   text-decoration: underline;
 }
 
+.contact-info h2,
 .contact-details h3 {
   color: var(--gold-soft);
 }
