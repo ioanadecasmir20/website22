@@ -719,3 +719,17 @@ body {
   .main-nav.open {
     opacity: 1;
     pointer-events:
+
+
+.contact-phone a,
+.contact-email a {
+  color: #f4c430;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-phone a:hover,
+.contact-email a:hover {
+  color: #ffd84d;
+  text-decoration: underline;
+}
