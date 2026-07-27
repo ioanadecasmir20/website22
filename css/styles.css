@@ -710,20 +710,23 @@ body {
     transition: opacity 0.2s ease, transform 0.2s ease;
   }
 
-  .main-nav ul {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0.8rem 1.5rem 1rem;
-  }
-
   .main-nav.open {
     opacity: 1;
-    pointer-events:
+    pointer-events: auto;
+    transform: translateY(0);
+  }
 
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Contact links */
 
 .contact-phone a,
 .contact-email a {
-  color: #f4c430;
+  color: var(--gold-soft);
   text-decoration: none;
   font-weight: 600;
 }
