@@ -3,414 +3,218 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elite Protection Training</title>
-
-  <!-- Favicon (add to /images later) -->
+  <meta name="description" content="Elite Protection Training provides SIA Door Supervisor, CCTV, instructor and security training courses." />
+  <title>Elite Protection Training | SIA Security Courses</title>
   <link rel="icon" type="image/png" href="images/favicon-elite.png" />
-
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header class="site-header" id="top">
     <div class="container header-inner">
-      <a href="#top" class="logo">
+      <a href="#top" class="logo" aria-label="Elite Protection Training home">
         <img src="images/logo-elite.png" alt="Elite Protection Training logo" />
         <span class="logo-text">Elite Protection Training</span>
       </a>
 
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="main-nav">
+      <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#courses">Courses</a></li>
-          <li><a href="#gallery">Training Experience</a></li>
+          <li><a href="#careers">Careers</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <a class="header-cta" href="#contact">Contact Us</a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
 
   <main>
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <h1>Welcome to Elite Protection Training. Professional Security Training Services</h1>
-          <p>
-            Elite Protection Training delivers high-impact security training built around real
-            operations, live venues and control-room experience.
-          </p>
-          <div class="hero-actions">
-            <a href="#courses" class="btn btn-primary">Explore courses</a>
-            <a href="#contact" class="btn btn-outline">Talk to our team</a>
-          </div>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Professional SIA Security Training</p>
+        <h1 id="hero-title">Start Your Career in Security</h1>
+        <p class="hero-lead">
+          Take the SIA Door Supervisor course, SIA CCTV course or SIA Instructor course and develop the qualifications and practical skills required for work in the UK security industry.
+        </p>
+        <p class="hero-income">
+          Build a career as a Door Supervisor, Corporate Security Guard, CCTV Operator or SIA Trainer, with earning potential of up to £3,000 per month depending on role, location, experience and hours worked.
+        </p>
+        <div class="hero-actions">
+          <a href="#courses" class="btn btn-primary">View Our Courses</a>
+          <a href="#contact" class="btn btn-outline">Contact Us</a>
         </div>
-
-        <div class="hero-media reveal">
-          <div class="hero-image-main">
-            <img src="images/hero-elite-team.jpg" alt="Security professionals in training" />
-          </div>
-          <div class="hero-image-stack">
-            <img src="images/hero-control-room.jpg" alt="CCTV control room training" />
-            <img src="images/hero-venue-security.jpg" alt="Venue security operations" />
-          </div>
+        <div class="hero-points" aria-label="Training benefits">
+          <span>Industry-focused training</span>
+          <span>Experienced tutors</span>
+          <span>Career guidance</span>
         </div>
       </div>
-      <button class="scroll-down" aria-label="Scroll to about section">
-        <span>Scroll</span> ↓
-      </button>
     </section>
 
-    <!-- ABOUT -->
     <section id="about" class="section">
-      <div class="container about-grid">
-        <div class="about-text reveal">
-          <h2>About Elite Protection Training</h2>
-          <p>
-            Elite Protection Training focuses on turning security qualifications into real-world
-            capability. Our trainers come from operational security, door supervision, CCTV and
-            management roles and bring live experience into every session.
-          </p>
-          <p>
-            We blend classroom delivery, scenario-based exercises and eLearning so that learners
-            understand not only what the standards require, but how to apply them on shift at 3am
-            when it really matters.
-          </p>
-        </div>
-        <div class="about-highlight reveal">
-          <div class="stats-row">
-            <div class="stat">
-              <span class="stat-number" data-target="100">0</span>
-              <span class="stat-label">% industry focused</span>
-            </div>
-            <div class="stat">
-              <span class="stat-number" data-target="94">0</span>
-              <span class="stat-label">Customer Satisfaction</span>
-            </div>
-            <div class="stat">
-              <span class="stat-number" data-target="9">0</span>
-              <span class="stat-label">Core &amp; specialist courses</span>
-            </div>
-          </div>
-          <div class="about-image-card">
-            <img src="images/about-briefing.jpg" alt="Trainer briefing security team" />
-          </div>
-        </div>
+      <div class="container narrow">
+        <p class="section-kicker">About Elite</p>
+        <h2>Security training designed for real operational work</h2>
+        <p>
+          Elite Protection Training prepares learners for security roles through structured tuition, practical scenarios and clear guidance on professional standards. Training is focused on the knowledge, confidence and conduct required in public-facing security environments.
+        </p>
+        <p>
+          Our programmes support new entrants, licensed operatives seeking further development and experienced professionals progressing towards supervisory or instructional roles.
+        </p>
       </div>
     </section>
 
-    <!-- COURSES -->
     <section id="courses" class="section section-alt">
       <div class="container">
-        <div class="section-header reveal">
-          <h2>Courses</h2>
-          <p>
-            Choose from core compliance training, operational skills and specialist security
-            modules. Filter by type to see what suits your team.
-          </p>
-        </div>
-
-        <div class="course-filters reveal">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="classroom">Classroom</button>
-          <button class="filter-btn" data-filter="elearning">eLearning</button>
-          <button class="filter-btn" data-filter="specialist">Specialist</button>
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Training programmes</p>
+            <h2>Our core security courses</h2>
+          </div>
+          <p>Choose a course aligned with your intended security role and career progression.</p>
         </div>
 
         <div class="courses-grid">
-          <!-- Existing 6 courses -->
-          <article class="course-card reveal" data-type="elearning">
-            <div class="course-tag">eLearning</div>
-            <h3>ACT Awareness</h3>
-            <p>
-              Introduces key concepts in protective security, recognising suspicious behaviour and
-              reporting concerns using official ACT guidance.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>Short modules for busy staff</li>
-                <li>Ideal for all frontline roles</li>
-                <li>Certificate of completion</li>
-              </ul>
-            </div>
+          <article class="course-card">
+            <span class="course-number">01</span>
+            <h3>SIA Door Supervisor Course</h3>
+            <p>Prepare for door supervision and broader security guarding work through classroom learning, practical exercises, conflict management and physical intervention training.</p>
+            <ul>
+              <li>Suitable for new security entrants</li>
+              <li>Practical and theory-based delivery</li>
+              <li>Supports SIA licence application requirements</li>
+            </ul>
+            <a href="#contact">Enquire about this course</a>
           </article>
 
-          <article class="course-card reveal" data-type="elearning">
-            <div class="course-tag">eLearning</div>
-            <h3>ACT Security</h3>
-            <p>
-              Builds on ACT Awareness for security operatives, covering hostile reconnaissance,
-              threat levels and response options.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>Designed for SIA-licensed staff</li>
-                <li>Scenario-based decision making</li>
-                <li>Supports venue security plans</li>
-              </ul>
-            </div>
+          <article class="course-card">
+            <span class="course-number">02</span>
+            <h3>SIA CCTV Operator Course</h3>
+            <p>Develop the knowledge required to operate public-space surveillance systems responsibly, lawfully and effectively in a professional control-room environment.</p>
+            <ul>
+              <li>CCTV legislation and procedures</li>
+              <li>Incident monitoring and reporting</li>
+              <li>Professional control-room practice</li>
+            </ul>
+            <a href="#contact">Enquire about this course</a>
           </article>
 
-          <article class="course-card reveal" data-type="classroom">
-            <div class="course-tag">Classroom</div>
-            <h3>Level 3 Emergency First Aid at Work</h3>
-            <p>
-              One-day qualification giving staff the confidence to respond to life-threatening
-              emergencies until professional help arrives.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>CPR and AED use</li>
-                <li>Bleeding, shock and choking</li>
-                <li>Ideal for low to medium risk sites</li>
-              </ul>
-            </div>
+          <article class="course-card">
+            <span class="course-number">03</span>
+            <h3>SIA Instructor Course</h3>
+            <p>Progress towards delivering security training by developing teaching, conflict-management and specialist instructional competence relevant to SIA-linked programmes.</p>
+            <ul>
+              <li>Designed for experienced operatives</li>
+              <li>Trainer-development pathway</li>
+              <li>Supports progression into security education</li>
+            </ul>
+            <a href="#contact">Enquire about this course</a>
           </article>
 
-          <article class="course-card reveal" data-type="classroom">
-            <div class="course-tag">Classroom</div>
-            <h3>Level 3 First Aid at Work</h3>
-            <p>
-              Comprehensive three-day qualification covering a wide range of injuries and illnesses
-              for higher-risk environments.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>In-depth practical training</li>
-                <li>Regulated qualification</li>
-                <li>Suitable for designated first aiders</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="course-card reveal" data-type="elearning">
-            <div class="course-tag">eLearning</div>
-            <h3>Lone Working eLearning</h3>
-            <p>
-              Focuses on dynamic risk assessment, personal safety and escalation procedures for
-              staff working alone on or off site.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>Works on desktop or mobile</li>
-                <li>Practical scenarios</li>
-                <li>Supports lone worker policies</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="course-card reveal" data-type="elearning">
-            <div class="course-tag">eLearning</div>
-            <h3>Security Operative Real Life Basics eLearning</h3>
-            <p>
-              A practical introduction to everyday security tasks: patrolling, radio use, incident
-              logs and customer interaction.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>Ideal pre-course or induction</li>
-                <li>Short, focused modules</li>
-                <li>Supports new starters</li>
-              </ul>
-            </div>
-          </article>
-
-          <!-- 3 additional relevant courses -->
-          <article class="course-card reveal" data-type="specialist classroom">
-            <div class="course-tag">Specialist</div>
-            <h3>Conflict Management for Security</h3>
-            <p>
-              Develops communication skills, situational awareness and structured approaches to
-              managing aggression and challenging behaviour.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>Role-play and scenario work</li>
-                <li>Focus on de-escalation</li>
-                <li>Suitable for all frontline staff</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="course-card reveal" data-type="specialist classroom">
-            <div class="course-tag">Specialist</div>
-            <h3>Physical Intervention Skills – Introduction</h3>
-            <p>
-              Introduces safe, lawful approaches to defensive skills and non-pain compliant
-              interventions in line with current guidance.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>Emphasis on safety and necessity</li>
-                <li>Stance, disengagement and team work</li>
-                <li>Practical, supervised practice</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="course-card reveal" data-type="specialist classroom">
-            <div class="course-tag">Specialist</div>
-            <h3>Supervising Security Teams</h3>
-            <p>
-              Designed for team leaders and supervisors, covering briefings, post allocation,
-              incident oversight and reporting.
-            </p>
-            <button class="course-toggle" type="button">More details</button>
-            <div class="course-more">
-              <ul>
-                <li>Shift leadership skills</li>
-                <li>Performance and welfare checks</li>
-                <li>Client communication and escalation</li>
-              </ul>
-            </div>
+          <article class="course-card">
+            <span class="course-number">04</span>
+            <h3>First Aid and Security CPD</h3>
+            <p>Maintain current workplace competence through first-aid qualifications, conflict-management development and practical continuing professional development.</p>
+            <ul>
+              <li>Emergency First Aid at Work</li>
+              <li>Conflict-management skills</li>
+              <li>Operational refresher training</li>
+            </ul>
+            <a href="#contact">Discuss your requirements</a>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- TRAINING EXPERIENCE / GALLERY -->
-    <section id="gallery" class="section">
-      <div class="container">
-        <div class="section-header reveal">
-          <h2>The Elite training experience</h2>
-          <p>
-            Training is delivered in real venues, control rooms and classrooms so that learners
-            practise in the environments they actually work in.
-          </p>
+    <section id="careers" class="section career-section">
+      <div class="container career-grid">
+        <div>
+          <p class="section-kicker">Career progression</p>
+          <h2>Where security training can take you</h2>
         </div>
-
-        <div class="gallery-grid">
-          <figure class="gallery-item reveal">
-            <img src="images/gallery-classroom.jpg" alt="Classroom-based security training" />
-            <figcaption>Classroom sessions with practical scenarios and group discussion.</figcaption>
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="images/gallery-cctv.jpg" alt="CCTV operator at work" />
-            <figcaption>Hands-on CCTV and control-room training using live-style setups.</figcaption>
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="images/gallery-venue.jpg" alt="Door supervisors at venue entrance" />
-            <figcaption>Door supervision and event security practice at real-world venues.</figcaption>
-          </figure>
+        <div class="career-list">
+          <div><strong>Door Supervisor</strong><span>Licensed premises, events, retail and public venues</span></div>
+          <div><strong>Corporate Security Guard</strong><span>Offices, commercial sites and professional environments</span></div>
+          <div><strong>CCTV Operator</strong><span>Control rooms, public-space surveillance and site monitoring</span></div>
+          <div><strong>SIA Trainer</strong><span>Delivering structured security training to future operatives</span></div>
         </div>
       </div>
     </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <div class="container contact-grid">
-
-    <div class="contact-info reveal">
-      <h2>Contact Us</h2>
-      <p>
-        For course bookings and any training enquiries, please contact us by phone, email,  enquiry form, or visit our office between Monday to Friday from 9:00 AM to 5:00 PM
-      </p>
-
-      <div class="contact-details">
-        <h3>Elite Protection Training</h3>
-
-        <p>
-          <strong>Basepoint Business Centre</strong><br />
-          Cressex Business Park<br />
-          Lincoln Road<br />
-          High Wycombe<br />
-          HP12 3RL
-        </p>
-
-        <p class="contact-phone">
-          <strong>Phone:</strong><br />
-          <a href="tel:+441494623180">
-            01494 623180
-          </a>
-        </p>
-
-        <p class="contact-email">
-          <strong>Email:</strong><br />
-          <a href="mailto:info@eliteprotectiontraining.com">
-            info@eliteprotectiontraining.com
-          </a>
-        </p>
+    <section class="cta-band">
+      <div class="container cta-inner">
+        <div>
+          <p class="section-kicker">Speak with our team</p>
+          <h2>Choose the right course for your security career</h2>
+        </div>
+        <a href="#contact" class="btn btn-light">Contact Us</a>
       </div>
-    </div>
+    </section>
 
-    <div class="contact-form-wrapper reveal">
-      <form id="contact-form">
-        <div class="form-row">
-          <label for="name">Full Name</label>
-          <input
-            id="name"
-            name="name"
-            type="text"
-            autocomplete="name"
-            required
-          />
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="section-kicker">Contact</p>
+          <h2>Course bookings and enquiries</h2>
+          <p>Contact Elite Protection Training for course dates, entry requirements, fees and guidance on the most suitable training route.</p>
+
+          <address>
+            <strong>Elite Protection Training</strong><br />
+            Basepoint Business Centre<br />
+            Cressex Business Park, Lincoln Road<br />
+            High Wycombe, HP12 3RL
+          </address>
+
+          <p><strong>Telephone:</strong> <a href="tel:+441494623180">01494 623180</a></p>
+          <p><strong>Email:</strong> <a href="mailto:info@eliteprotectiontraining.com">info@eliteprotectiontraining.com</a></p>
+          <p><strong>Office hours:</strong> Monday to Friday, 9:00 AM to 5:00 PM</p>
         </div>
 
-        <div class="form-row">
-          <label for="email">Email Address</label>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            autocomplete="email"
-            required
-          />
-        </div>
-
-        <div class="form-row">
-          <label for="phone">Telephone Number</label>
-          <input
-            id="phone"
-            name="phone"
-            type="tel"
-            autocomplete="tel"
-          />
-        </div>
-
-        <div class="form-row">
-          <label for="message">How can we help?</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            required
-          ></textarea>
-        </div>
-
-        <button class="btn btn-primary" type="submit">
-          Send Enquiry
-        </button>
-
-        <p class="form-note">
-          The form will open your email application with your enquiry details
-          completed, allowing you to review the message before sending it.
-        </p>
-      </form>
-    </div>
-
-  </div>
-</section>
-
-</main>
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="form-row">
+            <label for="phone">Telephone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" />
+          </div>
+          <div class="form-row">
+            <label for="course">Course of interest</label>
+            <select id="course" name="course">
+              <option value="Door Supervisor Course">SIA Door Supervisor Course</option>
+              <option value="CCTV Operator Course">SIA CCTV Operator Course</option>
+              <option value="Instructor Course">SIA Instructor Course</option>
+              <option value="First Aid or CPD">First Aid or Security CPD</option>
+              <option value="General enquiry">General enquiry</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Your enquiry</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Enquiry</button>
+          <p class="form-note">Your email application will open with the enquiry details completed for review before sending.</p>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
+      <a href="#top" class="footer-brand">Elite Protection Training</a>
       <p>&copy; <span id="year"></span> Elite Protection Training. All rights reserved.</p>
-      <a href="#top" class="back-to-top">Back to top ↑</a>
+      <a href="#top">Back to top</a>
     </div>
   </footer>
 
